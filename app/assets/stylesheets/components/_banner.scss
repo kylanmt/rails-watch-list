@@ -1,0 +1,45 @@
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.banner h1 {
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.banner p {
+  font-size: 20px;
+  color: white;
+  opacity: .7;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+.banner a {
+  display: inline-block;
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: 3px solid #2ecc71; /* Couleur de la bordure */
+  border-radius: 10px; /* Coins arrondis */
+  color: #fff; /* Couleur du texte */
+  background-color: #2ecc71; /* Couleur de fond principale */
+  transition: background-color 0.3s, color 0.3s; /* Animation de transition */
+}
+
+/* Effet de survol pour le bouton */
+.banner a:hover {
+  background-color: #27ae60; /* Couleur de fond au survol */
+  border-color: #27ae60; /* Couleur de la bordure au survol */
+}
